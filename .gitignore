@@ -1,0 +1,119 @@
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Maya
+# =========================
+
+# Autosaves
+autosave/
+*.autosave
+
+# Maya temp files
+*.mayaSwatches
+*.swatches
+
+# Crash logs
+*.log
+
+# Maya backup files
+*.ma~
+*.mb~
+
+# Render outputs (optional — uncomment if you don't want renders in git)
+# images/
+# renders/
+
+# Maya cache files
+cache/
+*.mcx
+*.mcc
+*.xml
+
+# Maya playblast files
+playblast/
+*.avi
+*.mov
+*.mp4
+
+# Maya workspace user prefs
+workspace.mel
+
+# =========================
+# DaVinci Resolve
+# =========================
+
+# Cache files
+CacheClip/
+Cache/
+GPUCache/
+
+# Optimized media
+Optimized Media/
+Proxy Media/
+
+# Render cache
+Render Cache/
+
+# Gallery still cache
+Gallery/
+
+# Resolve logs
+*.log
+
+# =========================
+# Photoshop
+# =========================
+
+# Photoshop temp files
+*.tmp
+~*.psd
+
+# Auto recovery
+AutoRecover/
+
+# =========================
+# Video editing / renders
+# =========================
+
+# Render exports (optional)
+# exports/
+# *.mp4
+# *.mov
+# *.avi
+
+# =========================
+# Adobe general
+# =========================
+
+# Media cache
+Media Cache/
+Media Cache Files/
+
+# =========================
+# Misc
+# =========================
+
+# Zip exports
+*.zip
+
+# Backup files
+*.bak
+
+# =========================
+# IDE (optional)
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# Python (if using scripts)
+# =========================
+
+__pycache__/
+*.pyc
